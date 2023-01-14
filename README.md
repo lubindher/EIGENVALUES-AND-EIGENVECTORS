@@ -19,6 +19,7 @@ import numpy as np
 a=np.array([[2,2],[1,3]])
 val,vec=np.linalg.eig(a)
 print("Eigen values are {} and Eigen Vectors are {}".format(val,vec))
+```
 
 ## Output:
 ![output](./Screenshot%202023-01-14%20154157.jpg)
